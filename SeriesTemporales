@@ -1,0 +1,10 @@
+# Cargar el dataset
+data("nottem")
+
+# Inspeccionar la estructura
+print(class(nottem))
+print(summary(nottem))
+
+# Graficar la serie temporal
+plot(nottem, main = "Temperaturas Mensuales en Nottingham (1920-1939)",
+     xlab = "Año", ylab = "Temperatura", col = "blue")
